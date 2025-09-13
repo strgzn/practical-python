@@ -20,8 +20,8 @@ while mortgage > 0:
         total += mortgage
         mortgage = 0
 
-    print(months, round(total, 2), round(mortgage, 2))
+    print(f"{months} {round(total, 2)} {round(mortgage, 2)}")
     
-print("total paid", round(total, 2))
-print("number of months", months)
+print(f"total paid {round(total, 2)}")
+print(f"number of months {months}")
 # Exercise 1.7
